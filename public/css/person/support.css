@@ -1,0 +1,148 @@
+.col-lg-5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+.right_cont_form {
+    margin: 20px;
+    background: #7f5585;
+    padding: 20px 54px;
+    color: #fff;
+}
+.right_cont_form h3 {
+    position: relative;
+}
+.item {
+    text-align: center;
+    padding: 0px 0px;
+    -webkit-box-shadow: 0 0px 25px rgb(0 0 0 / 7%);
+    box-shadow: 0 0px 22px rgb(0 0 0 / 7%);
+    border-radius: 20px;
+    border: 1px solid rgb(49 106 227);
+    margin-bottom: 30px;
+    -webkit-transition: all 0.5s ease 0;
+    transition: all 0.5s ease 0;
+    transition: all 0.5s ease 0s;
+    min-height: 275px;
+}
+.item .icon {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #312875;
+    width: 90px;
+    height: 90px;
+    line-height: 96px;
+    border-radius: 50px;
+}
+.item h6 {
+    margin-bottom: 20px;
+    color: #2f2f2f;
+}
+.item p {
+    font-size: 14px;
+}
+.item:hover{
+    border-color:  rgba(82,168,236,.8);
+    box-shadow: 0 0px 0px rgba(82,168,236,.8) inset, 0 0 8px rgba(82,168,236,.8);
+    outline: 0 none;
+}
+
+.right_cont_form h3:before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 400px;
+    top: 43px;
+    background: black;
+    left: 1px;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+label {
+    margin: 13px 0px;
+}
+input[type=text],input[type=number],input[type=email], select, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.col-lg-7 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+.pb-4, .py-4 {
+    padding-bottom: 1.5rem!important;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.pb-2, .py-2 {
+    padding-bottom: 0.5rem!important;
+}
+.col-sm-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+input[type=text],input[type=number],input[type=email] {
+    width: 100%;
+    padding: 5px;
+    resize: vertical;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+
+.button-submit {
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+.col-lg-5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+.right_cont_form h3 {
+    position: relative;
+}
+
+.h3, .h3 {
+    font-size: 1.75rem;
+}
+
+

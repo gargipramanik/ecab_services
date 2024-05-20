@@ -1,0 +1,59 @@
+.heroImage {
+    background-size: cover;
+    padding: 48px 20px;
+}
+
+.heroImage {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url(https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.associated-partners {
+    margin: 40px 0;
+}
+.associated-partners center {
+    font-weight: bold;
+    font-size: 30px;
+}
+.justify-content-center {
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.d-flex {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.customer-logos {
+    gap: 76px;
+}
+.customer-logos .slide {
+    border: 1px solid grey;
+}
+.slide img {
+    width: 153px;
+    height: 153px;
+    margin-bottom: 50px;
+}
+.bgsecpartner {
+    background-image: url(../img/inner-banner/lasbdk.png);
+    height: 222px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: -8px;
+    line-height: 33px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

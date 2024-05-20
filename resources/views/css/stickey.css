@@ -1,0 +1,153 @@
+.sticky-icon.show {
+    pointer-events: unset;
+    opacity: 1;
+}
+
+.sticky-icon {
+    z-index: 9;
+    position: fixed;
+    top: 50%;
+    right: 21px;
+    display: flex;
+    flex-direction: column;
+}
+.sticky-icon {
+    opacity: 0;
+    pointer-events: none;
+}
+.sticky-icon a {
+    transform: translate(160px, 0px);
+    border-radius: 50px 0px 0px 50px;
+    text-align: left;
+    margin: 2px;
+    text-decoration: none;
+    padding: 2px;
+    width: 187px;
+    font-size: 18px;
+    transition: all 0.8s;
+    font-family: 'Quicksand', sans-serif;
+}
+.show {
+    display: block;
+}
+.sticky-icon {
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    right: 21px;
+    /* width: 220px; */
+    display: flex;
+    flex-direction: column;
+}
+.Instagram {
+    /* background-color: #FD1D1D; */
+    color: #FFF;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+.Facebook {
+    background-color: #2C80D3;
+    color: #FFF;
+}
+.Google {
+    background-color: #21a013;
+    color: #FFF;
+}
+.Twitter {
+    background-color: #1da1f2;
+}
+.sticky-icon a i.fa-instagram {
+    background-color: #FFF;
+    color: #FD1D1D;
+}
+.sticky-icon a i {
+    background-color: #FFF;
+    height: 40px;
+    width: 40px;
+    color: #000;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: all 0.5s;
+}
+
+.sticky-icon a:hover i {
+    transform: rotate(360deg);
+}
+
+.sticky-icon a {
+    transform: translate(160px, 0px);
+    border-radius: 50px 0px 0px 50px;
+    text-align: left;
+    margin: 2px;
+    text-decoration: none;
+    padding: 2px;
+    width: 187px;
+    font-size: 18px;
+    transition: all 0.8s;
+    font-family: 'Quicksand', sans-serif;
+}
+.sticky-icon a:hover {
+    color: #FFF;
+    transform: translate(52px, -1px);
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.fa-instagram:before {
+    content: "\f16d";
+}
+.sticky-icon a i.fa-facebook-f {
+    background-color: #FFF;
+    color: #2C80D3;
+}
+
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+}
+
+.fa-facebook-f:before {
+    content: "\f39e";
+}
+.sticky-icon a i .fa-whatsapp {
+    background-color: #FFF;
+    color: #21a013;
+}
+.fa-whatsapp:before {
+    content: "\f232";
+}
+.sticky-icon a i.fa-youtube-play {
+    background-color: #FFF;
+    color: #fa0910;
+}
+.fa-youtube-play:before {
+    content: "\f16a";
+}
+.sticky-icon a i.fa-twitter {
+    background-color: #FFF;
+    color: #53c5ff;
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+.linkdin {
+    background-color: #0077b5;
+    color: #FFF;
+}
+
+.fa-linkedin-in:before {
+    content: "\f0e1";
+}

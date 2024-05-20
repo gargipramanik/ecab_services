@@ -1,0 +1,249 @@
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #45a4c4 #ffffff;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.auto_width_fluid {
+    width: 100% !important;
+    margin-top: 30px;
+}
+.fade {
+	animation-name: fade; 
+	animation-duration: 2s;
+}
+@keyframes fade {
+	from {opacity: .5}
+	to {opacity: 1}
+}
+.navbar.navbar-expand-lg.navbar-light.bg-white.new_menu_light.headerNavbar {
+  	 transition: all 0.3s ease-in-out;
+}
+.row{
+	font-size: 18px;
+}
+.click-abt {
+    background-color: #312875;
+    border: none;
+    color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}	
+.messages{
+	background-color: #312875;
+	color: white;
+	text-align: center;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+}
+.client_counter {
+    margin-bottom: 40px;
+    background-image: url(https://www.cabecars.in/assets/img/author/bg-counter.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 670px;
+}
+.position-relative {
+    position: relative;
+}
+.at-section-title {
+    padding: 31px;
+}
+.journey {
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+}
+.justify-content-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-lg-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.counterr {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 8px 0px;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 8%;
+    min-height: 180px;
+    width: 300px;
+    display: grid;
+    place-items: center;
+}
+.counter-title1 {
+    margin: 50px 0px;
+}
+.text-center {
+    text-align: center;
+}
+
+.counterr .counter-icon {
+    color: #fff;
+    font-size: 50px;
+    line-height: 57px;
+    width: 62px;
+    margin: 0px auto 8px;
+    position: relative;
+}
+.justify-content-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.countr-num {
+    justify-content: center;
+}
+.pt-4 {
+    padding-top: 1.5rem;
+}
+.position-relative {
+    position: relative;
+}
+
+.journey {
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+}
+
+.col-lg-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.align-items-center {
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.d-inline-flex {
+    display: -webkit-inline-box!important;
+    display: -ms-inline-flexbox!important;
+    display: inline-flex!important;
+}
+.call-btn {
+    text-decoration: none!important;
+}
+.call-btn {
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    font-weight: 700;
+    margin: 57px 74px;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.align-items-center {
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif!important;
+    overflow-x: hidden!important;
+    scroll-behavior: smooth!important;
+}
+.text-white {
+    color: #fff!important;
+}
+
+.p-1 {
+    padding: 0.25rem!important;
+}
+.footar-q-listt li {
+    font-size: 14px;
+    list-style-type: none;
+    display: flex;
+    padding-top: 5px;
+}
+.btn .btn-danger .block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: red;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }

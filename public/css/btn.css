@@ -1,0 +1,23 @@
+.right_cont1_form{
+    margin-bottom: 20px;
+    margin-left: 25%;
+    background: #454446;
+    padding: 20px 54px;
+    color: #fff;
+    width: 50%;
+    align-items: center;
+    align-self: center;
+}
+.right_cont1_form h3 {
+    position: relative;
+}
+
+.right_cont1_form h3:before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 158px;
+    top: 43px;
+    background: red;
+    left: 1px;
+}

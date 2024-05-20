@@ -1,0 +1,50 @@
+
+.form-control{
+    background-color: #333;
+    color: #fff;
+    border: 0;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    background-color: whitesmoke;
+}
+.col {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .round-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+ .bg-dark {
+    background-color: #212529 !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+.p-3 {
+    padding: 1rem !important;
+}
+.flex-shrink-0 {
+    flex-shrink: 0 !important;
+}
+.flex-column {
+    flex-direction: column !important;
+}
+.d-flex {
+    display: flex !important;
+}

@@ -1,0 +1,259 @@
+.position-relative {
+    position: relative!important;
+}
+
+.journey2 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+}
+.journey1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+}
+.journey {
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+}
+.journey1 {
+    color: #000!important;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.career_down {
+    padding: 40px 15px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.carrer-left h3 {
+    margin-top: 39px;
+    padding: 0px 31px;
+    border-bottom: 1px solid #ff512f;
+    display: inline;
+}
+
+.job-heading {
+    padding: 0px!important;
+}
+.carrer-left ul {
+    margin: 20px;
+}
+.req-heading {
+    padding: 0px!important;
+}
+
+.carrer-left {
+    justify-content: center;
+    align-items: center;
+}
+
+.carrer-left {
+    background: red;
+    background: #ebebeb;
+    box-shadow: inset -1px -1px 17px 20px #7e535345;
+}
+.col-lg-5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+.right_cont_form {
+    margin: 20px;
+    background: #454446;
+    padding: 20px 54px;
+    color: #fff;
+}
+.right_cont_form h3 {
+    position: relative;
+}
+.item {
+    text-align: center;
+    padding: 0px 0px;
+    -webkit-box-shadow: 0 0px 25px rgb(0 0 0 / 7%);
+    box-shadow: 0 0px 22px rgb(0 0 0 / 7%);
+    border-radius: 20px;
+    border: 1px solid rgb(49 106 227);
+    margin-bottom: 30px;
+    -webkit-transition: all 0.5s ease 0;
+    transition: all 0.5s ease 0;
+    transition: all 0.5s ease 0s;
+    min-height: 275px;
+}
+.item .icon {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #312875;
+    width: 90px;
+    height: 90px;
+    line-height: 96px;
+    border-radius: 50px;
+}
+.item h6 {
+    margin-bottom: 20px;
+    color: #2f2f2f;
+}
+.item p {
+    font-size: 14px;
+}
+.item:hover{
+    border-color:  rgba(82,168,236,.8);
+    box-shadow: 0 0px 0px rgba(82,168,236,.8) inset, 0 0 8px rgba(82,168,236,.8);
+    outline: 0 none;
+}
+
+.right_cont_form h3:before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 158px;
+    top: 43px;
+    background: rgb(233, 171, 171);
+    left: 1px;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+label {
+    margin: 13px 0px;
+}
+input[type=text],input[type=number],input[type=email], select, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.col-lg-7 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+.pb-4, .py-4 {
+    padding-bottom: 1.5rem!important;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.pb-2, .py-2 {
+    padding-bottom: 0.5rem!important;
+}
+.col-sm-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+input[type=text],input[type=number],input[type=email] {
+    width: 100%;
+    padding: 2px;
+    resize: vertical;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+form {
+    margin: 2em 0;
+  }
+  /**
+  * Make the field a flex-container, reverse the order so label is on top.
+  */
+   
+  .field {
+    display: flex;
+    flex-flow: column-reverse;
+    margin-bottom: 1em;
+  }
+  /**
+  * Add a transition to the label and input.
+  * I'm not even sure that touch-action: manipulation works on
+  * inputs, but hey, it's new and cool and could remove the 
+  * pesky delay.
+  */
+  label, input {
+    transition: all 0.2s;
+    touch-action: manipulation;
+  }
+  
+  input {
+    font-size: 1.5em;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    font-family: inherit;
+    -webkit-appearance: none;
+    border-radius: 0;
+    padding: 0;
+    cursor: text;
+  }
+  
+  input:focus {
+    outline: 0;
+    border-bottom: 1px solid #666;
+  }
+  
+  label {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  /**
+  * Translate down and scale the label up to cover the placeholder,
+  * when following an input (with placeholder-shown support).
+  * Also make sure the label is only on one row, at max 2/3rds of the
+  * field—to make sure it scales properly and doesn't wrap.
+  */
+  input:placeholder-shown + label {
+    cursor: text;
+    max-width: 66.66%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform-origin: left bottom;
+    transform: translate(0, 2.125rem) scale(1.5);
+  }
+  /**
+  * By default, the placeholder should be transparent. Also, it should 
+  * inherit the transition.
+  */
+  ::-webkit-input-placeholder {
+    opacity: 0;
+    transition: inherit;
+  }
+  /**
+  * Show the placeholder when the input is focused.
+  */
+  input:focus::-webkit-input-placeholder {
+    opacity: 1;
+  }
+  /**
+  * When the element is focused, remove the label transform.
+  * Also, do this when the placeholder is _not_ shown, i.e. when 
+  * there's something in the input at all.
+  */
+  input:not(:placeholder-shown) + label,
+  input:focus + label {
+    transform: translate(0, 0) scale(1);
+    cursor: pointer;
+  }

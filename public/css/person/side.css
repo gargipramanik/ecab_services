@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.sidebar{
+    position: fixed;
+    background-color: #a49ae1;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 70px;
+}
+.sidebar ul li{
+    margin: 20px 0;
+
+}
+.sidebar ul li a{
+    color: #fff;
+    padding: 0 30px;
+    text-decoration: none;
+
+}
+.sidebar ul li a:hover{
+    color: #0c0c0c;
+    background-color: #a49ae1;
+    margin-left: 20px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.color{
+    background-color: #aaa2d8;
+}
+
+.main{
+    margin-left: 255px;
+    padding: 5px;
+}

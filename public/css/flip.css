@@ -1,0 +1,134 @@
+.flip-box{
+    background-color: transparent;
+    height: 250px;
+    width: 100%;
+    border: 1px solid #fff;
+    perspective: 1000px;
+    margin: 10px -17px;
+}
+.flip-box{
+    padding: 0px 18px;
+    margin: 10px -22px;
+}
+.flip-box-inner{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    margin-left: 23px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flip-box:hover .flip-box-inner{
+    transform: rotateY(180deg);
+
+}
+.flip-box-front, .flip-box-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.flip-box-front{
+    background-color: #bbb;
+    color: black;
+}
+.flip-box-front span {
+    text-align: center;
+    top: 39%;
+    width: 90%;
+    font-size: 14px;
+    left: 20px;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+}
+.flip-box-back{
+    background-color: #555;
+    color: white;
+    transform: rotateY(180deg);
+
+}
+.col-lg-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-lg-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.travelling-with-us {
+    margin-bottom: 15px!important;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.lines{
+    font-size: 15px;
+}
+span .texts{
+    font-size: 20px;
+}
+.call-btn span {
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+    font-size: 40px;
+}
+.text-center{
+    text-align: center;
+}
+
+.align-items-center {
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.d-inline-flex {
+    display: -webkit-inline-box!important;
+    display: -ms-inline-flexbox!important;
+    display: inline-flex!important;
+}
+.call-btn {
+    text-decoration: none!important;
+}
+.call-btn {
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    font-weight: 700;
+    margin: 57px 74px;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a {
+    color: gold;
+    text-decoration: none;
+}
+
+.footer-list-head:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    top: 25px;
+    width: 50px;
+    background-color: red;
+}

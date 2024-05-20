@@ -1,0 +1,168 @@
+.footer-section {
+    background: #4c4848;
+}
+
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.pt-5, .py-5 {
+    padding-top: 3rem!important;
+}
+
+.position-relative {
+    position: relative!important;
+}
+.sticky-icon.show {
+    pointer-events: unset;
+    opacity: 1;
+}
+
+.sticky-icon {
+    z-index: 9;
+    position: fixed;
+    top: 50%;
+    right: 21px;
+    /* width: 220px; */
+    display: flex;
+    flex-direction: column;
+}
+.sticky-icon {
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+.show {
+    display: block;
+}
+.sticky-icon {
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    right: 21px;
+    /* width: 220px; */
+    display: flex;
+    flex-direction: column;
+}
+.justify-content-between {
+    -webkit-box-pack: justify!important;
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important;
+}
+.footer-copyright {
+    width: 100%;
+    border-top: 1px solid #fff;
+}
+.text-white {
+    color: #fff;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem;
+}
+.text-white {
+    color: #fff;
+}
+.mb-4 {
+    margin-bottom: 1.5rem ;
+}
+.h3, h3 {
+    font-size: 1.75rem;
+}
+
+.footer-list-head {
+    margin-bottom: 20px;
+}
+.footer-list-head {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+.p-1 {
+    padding: 0.25rem!important;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.footar-q-list {
+    padding: 0px 40px;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.footar-q-list li, .footar-q-list li a {
+    color: #fff;
+    list-style: none;
+    padding-left: 11px;
+    font-size: 14px!important;
+    padding-top: 5px;
+}
+
+.footar-q-list li a {
+    text-decoration: none;
+}
+.footer-copyright {
+    width: 100%;
+    border-top: 1px solid #fff;
+}
+.footer-copyright p, .footer-copyright ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+.footar-q-list li, .footar-q-list li a:hover {
+    color: red;
+}
+
+.footar-q-list li, .footar-q-list li a {
+    color: #fff;
+    list-style: none;
+    padding-left: 11px;
+    font-size: 14px!important;
+    padding-top: 5px;
+}
+.footar-q-list li {
+    list-style-type: none;
+    position: relative;
+    transition: all 0.5s;
+}
+.col-lg-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+.p-1 {
+    padding: 0.25rem;
+}
+.footar-q-list li:before {
+    content: "\f0da";
+    font: normal normal normal 14px/1 FontAwesome;
+    left: 11px;
+    position: absolute;
+    top: 9px;
+}
+.footer-wrapper::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000009e;
+}
+.footer-list-head:before {
+    top: 29px;
+    width: 55px;
+}
